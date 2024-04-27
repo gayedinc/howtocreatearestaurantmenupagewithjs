@@ -183,30 +183,3 @@ function displayMenuButtons (){
         });
     });
 }
-
-
-
-
-
-/* map Fonksiyonu:
-map fonksiyonu, bir dizi üzerinde döngü yapmaya benzer bir şekilde çalışır. 
-Ancak, bu fonksiyon her döngü öğesi üzerinde belirli bir işlemi uygular ve sonuçları yeni bir dizi olarak döndürür.
-map fonksiyonu, her bir öğe için belirtilen işlemleri uygular ve bu işlemlerin sonuçlarını yeni bir dizi olarak döndürür. 
-Örneğin, yukarıdaki kod örneğinde, menü öğelerinin her biri için bir HTML bloğu oluşturuluyor ve bu HTML blokları displayMenu adlı bir diziye ekleniyor.
-
-join Fonksiyonu:
-join fonksiyonu, bir diziyi belirli bir ayraçla birleştirip tek bir dize haline getirir.
-Bu fonksiyon, özellikle bir dizi içindeki öğeleri birleştirip tek bir metin dizesi elde etmek istediğinizde kullanışlıdır. 
-Örneğin, yukarıdaki kod örneğinde, displayMenu dizisi join fonksiyonu kullanılarak birleştiriliyor ve ardından bu birleştirilmiş metin, .section-center elementinin innerHTML özelliğine atanarak sayfada görüntüleniyor. */
-
-/* reduce Fonksiyonu:
-reduce fonksiyonu, bir dizi veya liste üzerinde bir işlem gerçekleştirmek için kullanılan bir dizi metodu (method) veya yüksek düzey bir fonksiyondur. 
-Bu fonksiyon, diziyi tek bir değere (bir akümülatör) indirger.
-
-includes Metodu:
-includes metodu, bir dizinin belirli bir elemanı içerip içermediğini kontrol eder. 
-Bu metodun dönüş değeri true veya false'dir.
-
-push Metodu:
-push metodu, bir dizinin sonuna bir veya daha fazla eleman eklemek için kullanılır. 
-Bu metot, dizinin uzunluğunu günceller. */
